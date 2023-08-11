@@ -21,4 +21,11 @@ text = tk.Label(
     )
 text.place(relx=0.5, rely=0.8, anchor='center')
 
+button = tk.Button(
+    window,
+    text='close',
+    command=window.quit
+)
+button.place(relx=0.5, rely=0.8, anchor='center')
+
 window.mainloop()
