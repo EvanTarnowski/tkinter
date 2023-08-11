@@ -1,6 +1,9 @@
 import tkinter as tk
+import os
 from PIL import ImageTk, Image
 from tkinter import font
+
+os.environ['DISPLAY']=":0"
 
 window = tk.Tk()
 window.attributes('-fullscreen', True)
